@@ -1,4 +1,4 @@
-SELECT * FROM onlypizza.pizzas;
+Create Database only_pizza;
 use onlypizza;
 
 CREATE TABLE orders (
