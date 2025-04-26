@@ -1,34 +1,21 @@
 🍕 Pizza Sales SQL Analysis Project
 📌 Project Overview
-This project is an end-to-end SQL-based analysis of a fictional pizza business using the onlypizza database. The goal is to extract meaningful business insights from order and sales data through structured SQL queries.
+An end-to-end SQL project analyzing pizza sales data to extract business insights like top-selling pizzas, revenue trends, and category performance.
 
-🗃️ Dataset Structure
-The project uses the following main tables:
+🗃️ Dataset
+Used four main tables: pizzas, pizza_types, orders, and order_details.
 
-pizzas: Contains pizza ID, size, price, and pizza type reference.
+🔍 Key Highlights
+Calculated total orders and revenue
 
-pizza_types: Includes pizza names and their categories.
+Identified best-selling pizzas and categories
 
-orders: Stores each order's ID, date, and time.
+Used JOIN, GROUP BY, RANK(), and window functions
 
-order_details: Links pizzas to orders with quantity details.
+Analyzed hourly orders and cumulative revenue
 
-🔍 Key Insights & Analysis
-Total Orders & Revenue: Calculated total number of orders and total revenue generated.
-
-Most Popular Items: Identified top-ordered pizzas, most common sizes, and categories.
-
-Revenue Drivers: Analyzed which pizza types and categories bring the most revenue.
-
-Time-Based Trends: Explored order patterns by hour and daily averages.
-
-Advanced Analytics:
-
-Cumulative revenue over time using SUM() OVER().
-
-Top pizzas by revenue using RANK().
-
-Revenue share by category with % formatting.
+🎯 Goal
+To apply and strengthen SQL skills through hands-on analysis.
 
 🛠️ Tools & Technologies
 SQL (MySQL or compatible engine)
